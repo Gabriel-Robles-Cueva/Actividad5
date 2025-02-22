@@ -7,5 +7,8 @@ import { Inotice } from 'src/app/interfaces/inotice';
   styleUrls: ['./blog.component.css']
 })
 export class BlogComponent {
-  @Input() listacalculos: Inotice[] = [{titulo: "Prueba", imagen:"a", texto:"texto de prueba", fecha_publicacion: "a"}]
+  @Input() listacalculos: Inotice[] = [
+    {title: "Prueba", image:"https://placehold.co/300x200", text:"texto de prueba", date: "a"},
+    {title: "Prueba2", image:"https://placehold.co/300x200", text:"texto de prueba 2", date: "b"}
+  ]
 }

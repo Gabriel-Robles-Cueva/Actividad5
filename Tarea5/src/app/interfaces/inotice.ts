@@ -1,6 +1,6 @@
 export interface Inotice {
-  titulo: string;
-  imagen: string;
-  texto: string;
-  fecha_publicacion: string;
+  title: string;
+  image: string;
+  text: string;
+  date: string;
 }
